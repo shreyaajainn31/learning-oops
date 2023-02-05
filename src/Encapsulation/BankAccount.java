@@ -1,10 +1,10 @@
 package Encapsulation;
 
-public class BankingApplication{
+public class BankAccount{
     private String owner;
     private int balance;
 
-    public BankingApplication(String owner, int balance){
+    public BankAccount(String owner, int balance){
         this.owner = owner;
         this.balance= balance;
     }
